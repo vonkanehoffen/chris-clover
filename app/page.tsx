@@ -3,12 +3,19 @@ import { pictures } from "@/assets/pictures";
 import Link from "next/link";
 import { slugify } from "@/helpers/slugify";
 import { chunk } from "lodash";
+import sizeOf from "image-size";
 // import { useEffect } from "react";
 
 export default function Home() {
   // const [columns, setColumns] = useState(3);
   const columns = Math.ceil(pictures.length / 3);
-  const pictureChunks = chunk(pictures, columns);
+  const imgWidth = 300;
+  const picsWithDimensions = pictures.map((pic) => ({
+    ...pic,
+    dimensions: sizeOf(`public/pictures/${pic?.id}.jpg`),
+  }));
+
+  const pictureChunks = chunk(picsWithDimensions, columns);
 
   // useEffect(() => {
   //   const handleResize = () => {
@@ -35,8 +42,10 @@ export default function Home() {
             >
               <Image
                 src={`/pictures/${pic.id}.jpg`}
-                width="200"
-                height="100"
+                width={imgWidth}
+                height={
+                  (imgWidth / pic.dimensions.width!) * pic.dimensions.height!
+                }
                 alt="sdfsdf"
               />
             </Link>
