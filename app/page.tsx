@@ -46,7 +46,7 @@ export default function Home() {
                 height={
                   (imgWidth / pic.dimensions.width!) * pic.dimensions.height!
                 }
-                alt="sdfsdf"
+                alt={pic.title}
               />
             </Link>
           ))}
