@@ -16,6 +16,7 @@ export default function Picture({ params }: { params: { slug: string } }) {
   if (!meta) return <div>Not found</div>;
   const dimensions = sizeOf(`public/pictures/${meta?.id}.jpg`);
 
+  // todo: limit to 100vh
   return (
     <div className="flex flex-col items-center">
       <Link href="/">
