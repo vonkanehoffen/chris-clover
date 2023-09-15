@@ -32,6 +32,7 @@ export default function Home() {
                   (imgWidth / pic.dimensions.width!) * pic.dimensions.height!
                 )}
                 alt={pic.title}
+                loading="lazy"
               />
             </Link>
           ))}
