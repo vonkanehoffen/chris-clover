@@ -9,7 +9,7 @@ import sizeOf from "image-size";
 export default function Home() {
   // const [columns, setColumns] = useState(3);
   const columns = Math.ceil(pictures.length / 3);
-  const imgWidth = 300;
+  const imgWidth = 320;
   const picsWithDimensions = pictures.map((pic) => ({
     ...pic,
     dimensions: sizeOf(`public/pictures/${pic?.id}.jpg`),
@@ -31,14 +31,14 @@ export default function Home() {
   // }, []);
 
   return (
-    <main className="flex flex-row justify-center p-24 space-x-2">
+    <main className="flex flex-row justify-center">
       {pictureChunks.map((chunk, index) => (
-        <div key={index} className="">
+        <div key={index} className="mx-1 md:mx-2">
           {chunk.map((pic) => (
             <Link
               href={`/picture/${slugify(pic.title)}`}
               key={pic.id}
-              className="block mb-2"
+              className="block mb-2 md:mb-4"
             >
               <Image
                 src={`/pictures/${pic.id}.jpg`}
