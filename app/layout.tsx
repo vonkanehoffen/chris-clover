@@ -5,7 +5,7 @@ import { Parisienne } from "next/font/google";
 import Link from "next/link";
 
 const cormorantGaramond = Cormorant_Garamond({
-  weight: "500",
+  weight: ["500", "700"],
   subsets: ["latin"],
 });
 const parisienne = Parisienne({
@@ -36,7 +36,7 @@ export default function RootLayout({
             </h1>
           </header>
           <main>{children}</main>
-          <footer className="py-8">
+          <footer className="py-8 flex justify-center space-x-8 text-lg">
             <Link href="/biography">Biography</Link>
             <Link href="/contact">Contact</Link>
           </footer>
