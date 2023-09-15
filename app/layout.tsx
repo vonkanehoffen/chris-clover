@@ -31,7 +31,7 @@ export default function RootLayout({
             <h4 className={`text-center text-xl ${parisienne.className}`}>
               Fine Artist
             </h4>
-            <h1 className="text-center text-4xl uppercase tracking-widest">
+            <h1 className="text-center text-3xl sm:text-4xl uppercase tracking-widest">
               <Link href="/">Chris Clover</Link>
             </h1>
           </header>
