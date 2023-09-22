@@ -58,32 +58,32 @@ export default function Biography() {
       <Quote
         content={
           <>
-            <p>
+            <span className="block mb-4">
               Cultural historian CP Lee, who played at the Magic Village often
               with his cult sixties&apos; band Greasy Bair said &quot;All the
               hip youngsters had followed Roger Eagle at the Twisted Wheel but
               as the scene started what we called the underground.
-            </p>
-            <p>
+            </span>
+            <span className="block mb-4">
               In 1968 Roger took over the Jigsaw - and, to lovingly quote Frank
               Zappa, changed it into a psychedelic dungeon.
-            </p>
-            <p>
+            </span>
+            <span className="block mb-4">
               He got in Chris Clover, an amazing artist... you entered on the
               grount floor, and went down the stairs with all these psychedelic
               paintings that were mindblowing.
-            </p>
-            <p>
+            </span>
+            <span className="block mb-4">
               It encouraged poetry and dance and all sorts of other things to
               serve the hippie community, which was perhaps a few hundred
               people.
-            </p>
-            <p>
+            </span>
+            <span className="block mb-4">
               The stage of the Magic Village would grace stars including Pink
               Ffloyd, Fleetwood Mac, Fairport Convention, Marc Bolan and David
               Bowie, who played an acoustic set the night before his show at the
               Free Trade Hall.
-            </p>
+            </span>
           </>
         }
         author="Chris Osuh (Manchester Evening News)"
