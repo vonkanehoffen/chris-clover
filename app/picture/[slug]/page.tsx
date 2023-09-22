@@ -15,15 +15,21 @@ export default function Picture({ params }: { params: { slug: string } }) {
 
   if (!meta) return <div>Not found</div>;
   const dimensions = sizeOf(`public/pictures/${meta?.id}.jpg`);
+  const scaledDimensions = {
+    width: 1000,
+    height: Math.round((1000 / dimensions.width!) * dimensions.height!),
+  };
 
-  // todo: limit to 100vh
+  // TODO: Limit height. This messes with Next's image optimization though:
+  // style={{ maxHeight: "calc(100vh - 200px)", width: "auto" }}
+
   return (
     <div className="flex flex-col items-center">
       <Link href="/">
         <Image
           src={`/pictures/${meta.id}.jpg`}
-          width={dimensions.width}
-          height={dimensions.height}
+          width={scaledDimensions.width}
+          height={scaledDimensions.height}
           alt={meta.title}
         />
       </Link>
