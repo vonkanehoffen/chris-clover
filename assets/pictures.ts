@@ -264,4 +264,24 @@ export const pictures: Picture[] = [
   },
   { id: "70", title: "The Marble Run", description: 'Water Colour 20" x 28"' },
   { id: "71", title: "Fire Nymphs", description: 'Water Colour 22" x 22"' },
+  {
+    id: "72",
+    title: "When we were Young",
+    description: 'Water Colour 21.5" x 29 1/4"',
+  },
+  {
+    id: "73",
+    title: "Family Outing",
+    description: 'Water Colour 17" x 23"',
+  },
+  {
+    id: "74",
+    title: "Your Imagination is Your Future",
+    description: 'Water Colour 19.5" x 19.5"',
+  },
+  {
+    id: "75",
+    title: "Mindscape from the Eighth Level",
+    description: 'Water Colour 22" x 29"',
+  },
 ];
