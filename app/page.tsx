@@ -33,6 +33,9 @@ export default function Home() {
                 )}
                 alt={pic.title}
                 loading="lazy"
+                sizes="(max-width: 768px) 33vw, 320px"
+                quality={85}
+                className="w-full"
               />
             </Link>
           ))}
