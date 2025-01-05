@@ -159,7 +159,6 @@ export const pictures: Picture[] = [
     title: "Paradise Opens Tomorrow",
     description: 'Oil Colour 28" x 36"',
   },
-  { id: "40", title: "The Coming", description: 'Water Colour 20" x 29"' },
   {
     id: "41",
     title: "The Jazz Machine Revisited",
@@ -391,7 +390,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6320",
     title: "The Coming",
-    description: "1987",
+    description: 'Water Colour 20" x 29" 1987',
   },
   {
     id: "1O0A6323",
