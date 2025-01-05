@@ -3,11 +3,51 @@ import { slugify } from "@/helpers/slugify";
 import Image from "next/image";
 import sizeOf from "image-size";
 import Link from "next/link";
+import { Metadata } from "next";
 
 export async function generateStaticParams() {
   return pictures.map((pic) => ({
     slug: slugify(pic.title),
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const meta = pictures.find((pic) => slugify(pic.title) === params.slug);
+  if (!meta) return {};
+
+  const title = `${meta.title} - Chris Clover Fine Art`;
+  const description = `${meta.title} - ${meta.description} by Chris Clover`;
+  const imageUrl = `${
+    process.env.NEXT_PUBLIC_BASE_URL || "https://chrisclover.com"
+  }/pictures/${meta.id}.jpg`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
+    },
+  };
 }
 
 export default function Picture({ params }: { params: { slug: string } }) {
