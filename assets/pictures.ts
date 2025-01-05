@@ -144,7 +144,6 @@ export const pictures: Picture[] = [
     title: "The Creatures Who Forever Sleep",
     description: 'Oil Colour 18" x 42"',
   },
-  { id: "36", title: "The Colour and I", description: 'Oil Colour 24" x 36"' },
   {
     id: "37",
     title: "Galileo (Jupiter Mission)",
@@ -286,7 +285,187 @@ export const pictures: Picture[] = [
   },
   {
     id: "1O0A6260",
-    title: "The Mating Ritual of the Metal and the Femetal 1967",
-    description: "Oil Colour",
+    title: "The Mating Ritual of the Metal and the Femetal",
+    description: "1967",
+  },
+  {
+    id: "1O0A6261",
+    title: "Look",
+    description: "1984",
+  },
+  {
+    id: "1O0A6263",
+    title: "The Colour and I",
+    description: 'Oil Colour 24" x 36"',
+  },
+  {
+    id: "1O0A6264",
+    title: "Firebird",
+    description: "1995",
+  },
+  {
+    id: "1O0A6266",
+    title: "Untitled",
+    description: "",
+  },
+  {
+    id: "1O0A6283",
+    title: "The Order of Chaos",
+    description: "1985",
+  },
+  {
+    id: "1O0A6286",
+    title: "Recorded Live",
+    description: "1985",
+  },
+  {
+    id: "1O0A6287",
+    title: "Untitled",
+    description: "1985",
+  },
+  {
+    id: "1O0A6294",
+    title: "Victor U",
+    description: "1988",
+  },
+  {
+    id: "1O0A6295",
+    title: "Echo Kilo",
+    description: "1985",
+  },
+  {
+    id: "1O0A6296",
+    title: "Simplicity of Conscience",
+    description: "1966",
+  },
+  {
+    id: "1O0A6297",
+    title: "The Dragon Family",
+    description: "2015",
+  },
+  {
+    id: "1O0A6298",
+    title: "Love Machine",
+    description: "2016",
+  },
+  {
+    id: "1O0A6299",
+    title: "Glider",
+    description: "2014",
+  },
+  {
+    id: "1O0A6306",
+    title: "Primary Shapes (Alchemy)",
+    description: "2000",
+  },
+  {
+    id: "1O0A6307",
+    title: "In Search of the Promised Land",
+    description: "2004",
+  },
+  {
+    id: "1O0A6308",
+    title: "K for Kitty",
+    description: "1994",
+  },
+  {
+    id: "1O0A6309",
+    title: "In the Light of New Through the Light of Old",
+    description: "1970",
+  },
+  {
+    id: "1O0A6312",
+    title: "Highland Dream",
+    description: "1996",
+  },
+  {
+    id: "1O0A6314",
+    title: "Talisman",
+    description: "1990",
+  },
+  {
+    id: "1O0A6315",
+    title: "Temple of Love Revisited",
+    description: "2020",
+  },
+  {
+    id: "1O0A6320",
+    title: "The Coming",
+    description: "1987",
+  },
+  {
+    id: "1O0A6323",
+    title: "Taming the Hounds of Aries",
+    description: "2008",
+  },
+  {
+    id: "1O0A6324",
+    title: "A Thing O'Beauty",
+    description: "2016",
+  },
+  {
+    id: "1O0A6325",
+    title: "Post Morphman",
+    description: "1966",
+  },
+  {
+    id: "1O0A6326",
+    title: "Total Eclipse of our Son",
+    description: "1981",
+  },
+  {
+    id: "1O0A6327",
+    title: "Sparrowhawk",
+    description: "2019",
+  },
+  {
+    id: "1O0A6328",
+    title: "Departures Hall for the Promised Land",
+    description: "",
+  },
+  {
+    id: "1O0A6329",
+    title: "Untitled",
+    description: "",
+  },
+  {
+    id: "1O0A6330",
+    title: "Chrizlam Subliminal Sky",
+    description: "2008",
+  },
+  {
+    id: "1O0A6332",
+    title: "Platinum - Blood Sweat and Tears",
+    description: "1989",
+  },
+  {
+    id: "1O0A6333",
+    title: "Dali's Duck (Red Snail in the Sunset)",
+    description: "2016",
+  },
+  {
+    id: "1O0A6334",
+    title: "From Heaven to Earth",
+    description: "1972",
+  },
+  {
+    id: "1O0A6335",
+    title: "The Surnaturalist Observer",
+    description: "1972",
+  },
+  {
+    id: "1O0A6336",
+    title: "The Tree of Want",
+    description: "",
+  },
+  {
+    id: "1O0A6338",
+    title: "Nursery School",
+    description: "1985",
+  },
+  {
+    id: "1O0A6339",
+    title: "Untitled",
+    description: "1985",
   },
 ];
