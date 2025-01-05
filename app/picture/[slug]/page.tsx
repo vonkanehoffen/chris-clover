@@ -31,10 +31,10 @@ export default function Picture({ params }: { params: { slug: string } }) {
           width={scaledDimensions.width}
           height={scaledDimensions.height}
           alt={meta.title}
-          quality={80}
-          sizes="(max-width: 768px) 100vw, 1000px"
-          className="max-h-[calc(100vh-200px)] w-auto"
-          priority
+          // quality={80}
+          // sizes="(max-width: 768px) 100vw, 1000px"
+          // className="max-h-[calc(100vh-200px)] w-auto"
+          // priority
         />
       </Link>
       <h1 className="text-xl my-8 mb-4">{meta.title}</h1>
