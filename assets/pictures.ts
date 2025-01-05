@@ -31,11 +31,7 @@ export const pictures: Picture[] = [
     title: "In Search of My Pegasus",
     description: 'Water Colour 20" x 23"',
   },
-  {
-    id: "07",
-    title: "In Search of the Promised Land",
-    description: 'Water Colour 29"x 22"',
-  },
+
   {
     id: "08",
     title: "Mindscape from the Temple of Love",
@@ -74,7 +70,6 @@ export const pictures: Picture[] = [
     title: "Parable of the Puritones &amp; Optimyths",
     description: 'Oil Colour 36" x 26"',
   },
-  { id: "18", title: "Post-Morphmain", description: 'Oil Colour 15" x 22"' },
   {
     id: "19",
     title: "Space Lab Disaster",
@@ -120,11 +115,6 @@ export const pictures: Picture[] = [
     description: 'Oil Colour 25" x 39"',
   },
   {
-    id: "31",
-    title: "In the Light of New Through the Light Old",
-    description: 'Water Colour 23" x 34"',
-  },
-  {
     id: "32",
     title: "Mindscape from the 7th Level",
     description: 'Oil Colour 24" x 36"',
@@ -150,11 +140,6 @@ export const pictures: Picture[] = [
     description: 'Oil Colour 40" x 24"',
   },
   {
-    id: "38",
-    title: "The Mating Ritual of the Metal and the Femetal",
-    description: 'Oil Colour 25" x 25"',
-  },
-  {
     id: "39",
     title: "Paradise Opens Tomorrow",
     description: 'Oil Colour 28" x 36"',
@@ -175,7 +160,7 @@ export const pictures: Picture[] = [
     description: 'Water Colour 23" x 20"',
   },
   {
-    id: "44",
+    id: "1O0A6266",
     title: "Little Boy Blue Come Tickle Your Brain",
     description: 'Oil Colour 17" x 43"',
   },
@@ -197,11 +182,6 @@ export const pictures: Picture[] = [
     description: "Oil Colour",
   },
   { id: "50", title: "Sunset", description: "Water Colour" },
-  {
-    id: "51",
-    title: "Taming the Hounds of Aries",
-    description: 'Water Colour 26" x 22"',
-  },
   { id: "52", title: "Baptism of Fire", description: 'Water Colour 26" x 22"' },
   {
     id: "53",
@@ -254,7 +234,6 @@ export const pictures: Picture[] = [
     title: "The Wishing Star",
     description: 'Water Colour 22" x 29"',
   },
-  { id: "68", title: "Sparrowhawk", description: 'Water Colour 21" x 14"' },
   {
     id: "69",
     title: "Temple of Love Revisited",
@@ -285,7 +264,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
-    description: "1967",
+    description: 'Oil Colour 25" x 25" 1967',
   },
   {
     id: "1O0A6261",
@@ -303,11 +282,6 @@ export const pictures: Picture[] = [
     description: "1995",
   },
   {
-    id: "1O0A6266",
-    title: "Untitled",
-    description: "",
-  },
-  {
     id: "1O0A6283",
     title: "The Order of Chaos",
     description: "1985",
@@ -319,7 +293,7 @@ export const pictures: Picture[] = [
   },
   {
     id: "1O0A6287",
-    title: "Untitled",
+    title: "Untitled 1",
     description: "1985",
   },
   {
@@ -360,7 +334,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6307",
     title: "In Search of the Promised Land",
-    description: "2004",
+    description: 'Water Colour 29"x 22" 2004',
   },
   {
     id: "1O0A6308",
@@ -370,7 +344,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6309",
     title: "In the Light of New Through the Light of Old",
-    description: "1970",
+    description: 'Water Colour 23" x 34" 1970',
   },
   {
     id: "1O0A6312",
@@ -395,7 +369,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6323",
     title: "Taming the Hounds of Aries",
-    description: "2008",
+    description: 'Water Colour 26" x 22" 2008',
   },
   {
     id: "1O0A6324",
@@ -405,7 +379,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6325",
     title: "Post Morphman",
-    description: "1966",
+    description: 'Oil Colour 15" x 22" 1966',
   },
   {
     id: "1O0A6326",
@@ -415,7 +389,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6327",
     title: "Sparrowhawk",
-    description: "2019",
+    description: 'Water Colour 21" x 14" 2019',
   },
   {
     id: "1O0A6328",
@@ -424,7 +398,7 @@ export const pictures: Picture[] = [
   },
   {
     id: "1O0A6329",
-    title: "Untitled",
+    title: "Untitled 2",
     description: "",
   },
   {
@@ -464,7 +438,7 @@ export const pictures: Picture[] = [
   },
   {
     id: "1O0A6339",
-    title: "Untitled",
+    title: "Untitled 3",
     description: "1985",
   },
 ];
