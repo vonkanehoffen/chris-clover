@@ -284,4 +284,9 @@ export const pictures: Picture[] = [
     title: "Mindscape from the Eighth Level",
     description: 'Water Colour 22" x 29"',
   },
+  {
+    id: "1O0A6260",
+    title: "The Mating Ritual of the Metal and the Femetal 1967",
+    description: "Oil Colour",
+  },
 ];
