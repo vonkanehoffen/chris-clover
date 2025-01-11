@@ -2,6 +2,7 @@ type Picture = {
   id: string;
   title: string;
   description: string;
+  available?: boolean;
 };
 
 export const pictures: Picture[] = [
@@ -163,6 +164,7 @@ export const pictures: Picture[] = [
     id: "1O0A6266",
     title: "Little Boy Blue Come Tickle Your Brain",
     description: 'Oil Colour 17" x 43"',
+    available: true,
   },
   {
     id: "45",
@@ -265,180 +267,216 @@ export const pictures: Picture[] = [
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
     description: 'Oil Colour 25" x 25" 1967',
+    available: true,
   },
   {
     id: "1O0A6261",
     title: "Look",
     description: "1984",
+    available: true,
   },
   {
     id: "1O0A6263",
     title: "The Colour and I",
     description: 'Oil Colour 24" x 36"',
+    available: true,
   },
   {
     id: "1O0A6264",
     title: "Firebird",
     description: "1995",
+    available: true,
   },
   {
     id: "1O0A6283",
     title: "The Order of Chaos",
     description: "1985",
+    available: true,
   },
   {
     id: "1O0A6286",
     title: "Recorded Live",
     description: "1985",
+    available: true,
   },
   {
     id: "1O0A6287",
     title: "Untitled 1",
     description: "1985",
+    available: true,
   },
   {
     id: "1O0A6294",
     title: "Victor U",
     description: "1988",
+    available: true,
   },
   {
     id: "1O0A6295",
     title: "Echo Kilo",
     description: "1985",
+    available: true,
   },
   {
     id: "1O0A6296",
     title: "Simplicity of Conscience",
     description: "1966",
+    available: true,
   },
   {
     id: "1O0A6297",
     title: "The Dragon Family",
     description: "2015",
+    available: true,
   },
   {
     id: "1O0A6298",
     title: "Love Machine",
     description: "2016",
+    available: true,
   },
   {
     id: "1O0A6299",
     title: "Glider",
     description: "2014",
+    available: true,
   },
   {
     id: "1O0A6306",
     title: "Primary Shapes (Alchemy)",
     description: "2000",
+    available: true,
   },
   {
     id: "1O0A6307",
     title: "In Search of the Promised Land",
     description: 'Water Colour 29"x 22" 2004',
+    available: true,
   },
   {
     id: "1O0A6308",
     title: "K for Kitty",
     description: "1994",
+    available: true,
   },
   {
     id: "1O0A6309",
     title: "In the Light of New Through the Light of Old",
     description: 'Water Colour 23" x 34" 1970',
+    available: true,
   },
   {
     id: "1O0A6312",
     title: "Highland Dream",
     description: "1996",
+    available: true,
   },
   {
     id: "1O0A6314",
     title: "Talisman",
     description: "1990",
+    available: true,
   },
   {
     id: "1O0A6315",
     title: "Temple of Love Revisited",
     description: "2020",
+    available: true,
   },
   {
     id: "1O0A6320",
     title: "The Coming",
     description: 'Water Colour 20" x 29" 1987',
+    available: true,
   },
   {
     id: "1O0A6323",
     title: "Taming the Hounds of Aries",
     description: 'Water Colour 26" x 22" 2008',
+    available: true,
   },
   {
     id: "1O0A6324",
     title: "A Thing O'Beauty",
     description: "2016",
+    available: true,
   },
   {
     id: "1O0A6325",
     title: "Post Morphman",
     description: 'Oil Colour 15" x 22" 1966',
+    available: true,
   },
   {
     id: "1O0A6326",
     title: "Total Eclipse of our Son",
     description: "1981",
+    available: true,
   },
   {
     id: "1O0A6327",
     title: "Sparrowhawk",
     description: 'Water Colour 21" x 14" 2019',
+    available: true,
   },
   {
     id: "1O0A6328",
     title: "Departures Hall for the Promised Land",
     description: "",
+    available: true,
   },
   {
     id: "1O0A6329",
     title: "Untitled 2",
     description: "",
+    available: true,
   },
   {
     id: "1O0A6330",
     title: "Chrizlam Subliminal Sky",
     description: "2008",
+    available: true,
   },
   {
     id: "1O0A6332",
     title: "Platinum - Blood Sweat and Tears",
     description: "1989",
+    available: true,
   },
   {
     id: "1O0A6333",
     title: "Dali's Duck (Red Snail in the Sunset)",
     description: "2016",
+    available: true,
   },
   {
     id: "1O0A6334",
     title: "From Heaven to Earth",
     description: "1972",
+    available: true,
   },
   {
     id: "1O0A6335",
     title: "The Surnaturalist Observer",
     description: "1972",
+    available: true,
   },
   {
     id: "1O0A6336",
     title: "The Tree of Want",
     description: "",
+    available: true,
   },
   {
     id: "1O0A6338",
     title: "Nursery School",
     description: "1985",
+    available: true,
   },
   {
     id: "1O0A6339",
     title: "Untitled 3",
     description: "1985",
+    available: true,
   },
 ];

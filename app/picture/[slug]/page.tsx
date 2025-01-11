@@ -78,7 +78,9 @@ export default function Picture({ params }: { params: { slug: string } }) {
         />
       </Link>
       <h1 className="text-xl my-8 mb-4">{meta.title}</h1>
-      <h4 className="mb-4 text-slate-500">{meta.description}</h4>
+      <h4 className="mb-4 text-slate-500">
+        {meta.description} - {meta.available ? "Available" : "Not available"}
+      </h4>
     </div>
   );
 }
