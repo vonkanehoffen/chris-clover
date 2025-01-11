@@ -4,10 +4,11 @@ export default function Biography() {
   return (
     <div className="mx-8 text-lg">
       <h1 className="text-3xl my-8">Biography</h1>
+      <p className="my-8 text-2xl">1948 - 2024</p>
       <p className="my-8">
-        Chris Clover is one of the very few contemporary artists working today
-        to have entered the profession via the time honoured route as an
-        &apos;apprentice artist&apos;. In the 1960s at the age of 15, he was
+        Chris Clover was one of the very few contemporary artists working until
+        the 2020s to have entered the profession via the time honoured route as
+        an &apos;apprentice artist&apos;. In the 1960s at the age of 15, he was
         indentured to an art studio in the centre of Manchester. He later became
         a Trade Master with that same company before leaving to set up his own
         studio 10 years later (again in the centre of Manchester). Here he has

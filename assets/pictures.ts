@@ -272,7 +272,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6261",
     title: "Look",
-    description: "1984",
+    description: "Oil Colour, 1984",
     available: true,
   },
   {
@@ -284,13 +284,13 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6264",
     title: "Firebird",
-    description: "1995",
+    description: "Oil Colour, 1995",
     available: true,
   },
   {
     id: "1O0A6283",
     title: "The Order of Chaos",
-    description: "1985",
+    description: "Airbrush Water Colour, 1985",
     available: true,
   },
   {
@@ -302,19 +302,19 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6287",
     title: "Untitled 1",
-    description: "1985",
+    description: "Airbrush Water Colour, 1985",
     available: true,
   },
   {
     id: "1O0A6294",
     title: "Victor U",
-    description: "1988",
+    description: "Airbrush Water Colour, 1988",
     available: true,
   },
   {
     id: "1O0A6295",
     title: "Echo Kilo",
-    description: "1985",
+    description: "Airbrush Water Colour, 1985",
     available: true,
   },
   {
@@ -344,7 +344,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6306",
     title: "Primary Shapes (Alchemy)",
-    description: "2000",
+    description: "Airbrush Water Colour, 2000",
     available: true,
   },
   {
@@ -356,7 +356,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6308",
     title: "K for Kitty",
-    description: "1994",
+    description: "Airbrush Water Colour, 1994",
     available: true,
   },
   {
@@ -374,7 +374,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6314",
     title: "Talisman",
-    description: "1990",
+    description: "Airbrush Water Colour, 1990",
     available: true,
   },
   {
@@ -392,7 +392,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6323",
     title: "Taming the Hounds of Aries",
-    description: 'Water Colour 26" x 22" 2008',
+    description: 'Airbrush Water Colour 26" x 22" 2008',
     available: true,
   },
   {

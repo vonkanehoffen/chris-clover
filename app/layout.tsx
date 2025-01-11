@@ -36,11 +36,13 @@ export default function RootLayout({
             </h1>
           </header>
           <nav className="pb-8 flex justify-center space-x-8 text-lg">
+            <Link href="/available">Available</Link>
             <Link href="/biography">Biography</Link>
             <Link href="/contact">Contact</Link>
           </nav>
           <main>{children}</main>
           <footer className="py-8 flex justify-center space-x-8 text-lg">
+            <Link href="/available">Available</Link>
             <Link href="/biography">Biography</Link>
             <Link href="/contact">Contact</Link>
           </footer>
