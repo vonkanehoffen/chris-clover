@@ -264,27 +264,15 @@ export const pictures: Picture[] = [
     description: 'Water Colour 22" x 29"',
   },
   {
+    id: "1O0A6320",
+    title: "The Coming",
+    description: 'Water Colour 20" x 29" 1987',
+    available: true,
+  },
+  {
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
     description: 'Oil Colour 25" x 25" 1967',
-    available: true,
-  },
-  {
-    id: "1O0A6261",
-    title: "Look",
-    description: "Oil Colour, 1984",
-    available: true,
-  },
-  {
-    id: "1O0A6263",
-    title: "The Colour and I",
-    description: 'Oil Colour 24" x 36"',
-    available: true,
-  },
-  {
-    id: "1O0A6264",
-    title: "Firebird",
-    description: "Oil Colour, 1995",
     available: true,
   },
   {
@@ -294,15 +282,9 @@ export const pictures: Picture[] = [
     available: true,
   },
   {
-    id: "1O0A6286",
-    title: "Recorded Live",
-    description: "1985",
-    available: true,
-  },
-  {
-    id: "1O0A6287",
-    title: "Untitled 1",
-    description: "Airbrush Water Colour, 1985",
+    id: "1O0A6263",
+    title: "The Colour and I",
+    description: 'Oil Colour 24" x 36"',
     available: true,
   },
   {
@@ -312,9 +294,51 @@ export const pictures: Picture[] = [
     available: true,
   },
   {
+    id: "1O0A6329",
+    title: "Untitled 2",
+    description: "",
+    available: true,
+  },
+  {
+    id: "1O0A6261",
+    title: "Look",
+    description: "Oil Colour, 1984",
+    available: true,
+  },
+  {
+    id: "1O0A6264",
+    title: "Firebird",
+    description: "Oil Colour, 1995",
+    available: true,
+  },
+  {
+    id: "1O0A6309",
+    title: "In the Light of New Through the Light of Old",
+    description: 'Water Colour 23" x 34" 1970',
+    available: true,
+  },
+  {
+    id: "1O0A6332",
+    title: "Platinum - Blood Sweat and Tears",
+    description: "1989",
+    available: true,
+  },
+  {
+    id: "1O0A6287",
+    title: "Untitled 1",
+    description: "Airbrush Water Colour, 1985",
+    available: true,
+  },
+  {
     id: "1O0A6295",
     title: "Echo Kilo",
     description: "Airbrush Water Colour, 1985",
+    available: true,
+  },
+  {
+    id: "1O0A6286",
+    title: "Recorded Live",
+    description: "1985",
     available: true,
   },
   {
@@ -360,12 +384,6 @@ export const pictures: Picture[] = [
     available: true,
   },
   {
-    id: "1O0A6309",
-    title: "In the Light of New Through the Light of Old",
-    description: 'Water Colour 23" x 34" 1970',
-    available: true,
-  },
-  {
     id: "1O0A6312",
     title: "Highland Dream",
     description: "1996",
@@ -381,12 +399,6 @@ export const pictures: Picture[] = [
     id: "1O0A6315",
     title: "Temple of Love Revisited",
     description: "2020",
-    available: true,
-  },
-  {
-    id: "1O0A6320",
-    title: "The Coming",
-    description: 'Water Colour 20" x 29" 1987',
     available: true,
   },
   {
@@ -426,21 +438,9 @@ export const pictures: Picture[] = [
     available: true,
   },
   {
-    id: "1O0A6329",
-    title: "Untitled 2",
-    description: "",
-    available: true,
-  },
-  {
     id: "1O0A6330",
     title: "Chrizlam Subliminal Sky",
     description: "2008",
-    available: true,
-  },
-  {
-    id: "1O0A6332",
-    title: "Platinum - Blood Sweat and Tears",
-    description: "1989",
     available: true,
   },
   {
