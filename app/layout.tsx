@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond } from "next/font/google";
 import { Parisienne } from "next/font/google";
 import Link from "next/link";
+import { NavLink } from "../components/NavLink";
 
 const cormorantGaramond = Cormorant_Garamond({
   weight: ["500", "700"],
@@ -36,15 +37,15 @@ export default function RootLayout({
             </h1>
           </header>
           <nav className="pb-8 flex justify-center space-x-8 text-lg">
-            <Link href="/available">Available</Link>
-            <Link href="/biography">Biography</Link>
-            <Link href="/contact">Contact</Link>
+            <NavLink href="/available">Available</NavLink>
+            <NavLink href="/biography">Biography</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </nav>
           <main>{children}</main>
           <footer className="py-8 flex justify-center space-x-8 text-lg">
-            <Link href="/available">Available</Link>
-            <Link href="/biography">Biography</Link>
-            <Link href="/contact">Contact</Link>
+            <NavLink href="/available">Available</NavLink>
+            <NavLink href="/biography">Biography</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </footer>
         </div>
       </body>
