@@ -164,7 +164,7 @@ export const pictures: Picture[] = [
     id: "1O0A6266",
     title: "Little Boy Blue Come Tickle Your Brain",
     description: 'Oil Colour 17" x 43"',
-    available: true,
+    available: false,
   },
   {
     id: "45",
@@ -266,8 +266,8 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6320",
     title: "The Coming",
-    description: 'Water Colour 20" x 29" 1987',
-    available: true,
+    description: 'Airbrush Water Colour 20" x 29" 1987',
+    available: false,
   },
   {
     id: "1O0A6260",
