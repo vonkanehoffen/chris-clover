@@ -273,7 +273,7 @@ export const pictures: Picture[] = [
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
     description: 'Oil Colour 25" x 25" 1967',
-    available: true,
+    available: false,
   },
   {
     id: "1O0A6283",
@@ -459,7 +459,7 @@ export const pictures: Picture[] = [
     id: "1O0A6335",
     title: "The Surnaturalist Observer",
     description: "1972",
-    available: true,
+    available: false,
   },
   {
     id: "1O0A6336",
