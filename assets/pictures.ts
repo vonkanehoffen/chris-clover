@@ -238,11 +238,11 @@ export const pictures: Picture[] = [
     title: "The Wishing Star",
     description: 'Water Colour 22" x 29"',
   },
-  {
-    id: "69",
-    title: "Temple of Love Revisited",
-    description: 'Water Colour 22" x 30"',
-  },
+  // {
+  //   id: "69",
+  //   title: "Temple of Love Revisited",
+  //   description: 'Water Colour 22" x 30"',
+  // },
   { id: "70", title: "The Marble Run", description: 'Water Colour 20" x 28"' },
   { id: "71", title: "Fire Nymphs", description: 'Water Colour 22" x 22"' },
   {
@@ -407,7 +407,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6315",
     title: "Temple of Love Revisited",
-    description: "2020",
+    description: 'Water Colour 22" x 30" 2020',
     available: true,
   },
   {
