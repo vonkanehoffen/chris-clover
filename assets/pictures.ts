@@ -408,7 +408,8 @@ export const pictures: Picture[] = [
     id: "1O0A6315",
     title: "Temple of Love Revisited",
     description: 'Water Colour 22" x 30" 2020',
-    available: true,
+    available: false,
+    owner: "Cat O'Neil",
   },
   {
     id: "1O0A6323",
