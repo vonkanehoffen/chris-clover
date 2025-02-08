@@ -3,6 +3,7 @@ type Picture = {
   title: string;
   description: string;
   available?: boolean;
+  givenTo?: string;
 };
 
 export const pictures: Picture[] = [
@@ -165,6 +166,7 @@ export const pictures: Picture[] = [
     title: "Little Boy Blue Come Tickle Your Brain",
     description: 'Oil Colour 17" x 43"',
     available: false,
+    givenTo: "Kane",
   },
   {
     id: "45",
@@ -268,12 +270,14 @@ export const pictures: Picture[] = [
     title: "The Coming",
     description: 'Airbrush Water Colour 20" x 29" 1987',
     available: false,
+    givenTo: "Kane",
   },
   {
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
     description: 'Oil Colour 25" x 25" 1967',
     available: false,
+    givenTo: "Kane",
   },
   {
     id: "1O0A6283",
@@ -296,8 +300,9 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6329",
     title: "Untitled 2",
-    description: "",
-    available: true,
+    description: "Ink on Paper",
+    available: false,
+    givenTo: "Ganjees",
   },
   {
     id: "1O0A6261",
@@ -333,7 +338,8 @@ export const pictures: Picture[] = [
     id: "1O0A6295",
     title: "Echo Kilo",
     description: "Airbrush Water Colour, 1985",
-    available: true,
+    available: false,
+    givenTo: "Mark Horne",
   },
   {
     id: "1O0A6286",
@@ -362,7 +368,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6299",
     title: "Glider",
-    description: "2014",
+    description: 'Water Colour 29" x 37" 2014',
     available: true,
   },
   {
@@ -422,7 +428,7 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6326",
     title: "Total Eclipse of our Son",
-    description: "1981",
+    description: 'Water Colour 20" x 25" 1981',
     available: true,
   },
   {
@@ -460,6 +466,7 @@ export const pictures: Picture[] = [
     title: "The Surnaturalist Observer",
     description: "1972",
     available: false,
+    givenTo: "Lydia",
   },
   {
     id: "1O0A6336",
