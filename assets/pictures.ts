@@ -3,7 +3,7 @@ type Picture = {
   title: string;
   description: string;
   available?: boolean;
-  givenTo?: string;
+  owner?: string;
 };
 
 export const pictures: Picture[] = [
@@ -166,7 +166,7 @@ export const pictures: Picture[] = [
     title: "Little Boy Blue Come Tickle Your Brain",
     description: 'Oil Colour 17" x 43"',
     available: false,
-    givenTo: "Kane",
+    owner: "Kane & Lydia",
   },
   {
     id: "45",
@@ -270,14 +270,14 @@ export const pictures: Picture[] = [
     title: "The Coming",
     description: 'Airbrush Water Colour 20" x 29" 1987',
     available: false,
-    givenTo: "Kane",
+    owner: "Kane & Lydia",
   },
   {
     id: "1O0A6260",
     title: "The Mating Ritual of the Metal and the Femetal",
     description: 'Oil Colour 25" x 25" 1967',
     available: false,
-    givenTo: "Kane",
+    owner: "Kane & Lydia",
   },
   {
     id: "1O0A6283",
@@ -302,7 +302,7 @@ export const pictures: Picture[] = [
     title: "Untitled 2",
     description: "Ink on Paper",
     available: false,
-    givenTo: "Ganjees",
+    owner: "Andrew Dowling",
   },
   {
     id: "1O0A6261",
@@ -313,8 +313,9 @@ export const pictures: Picture[] = [
   {
     id: "1O0A6264",
     title: "Firebird",
-    description: "Oil Colour, 1995",
-    available: true,
+    description: 'Oil Colour, 31" x 42" 1995',
+    available: false,
+    owner: "Vicky & Theo Scholes",
   },
   {
     id: "1O0A6309",
@@ -339,7 +340,7 @@ export const pictures: Picture[] = [
     title: "Echo Kilo",
     description: "Airbrush Water Colour, 1985",
     available: false,
-    givenTo: "Mark Horne",
+    owner: "Mark Horne",
   },
   {
     id: "1O0A6286",
@@ -357,7 +358,8 @@ export const pictures: Picture[] = [
     id: "1O0A6297",
     title: "The Dragon Family",
     description: "2015",
-    available: true,
+    available: false,
+    owner: "Nick & Helen Rowles",
   },
   {
     id: "1O0A6298",
@@ -429,7 +431,8 @@ export const pictures: Picture[] = [
     id: "1O0A6326",
     title: "Total Eclipse of our Son",
     description: 'Water Colour 20" x 25" 1981',
-    available: true,
+    available: false,
+    owner: "Colette Walker",
   },
   {
     id: "1O0A6327",
@@ -466,7 +469,7 @@ export const pictures: Picture[] = [
     title: "The Surnaturalist Observer",
     description: "1972",
     available: false,
-    givenTo: "Lydia",
+    owner: "Kane & Lydia",
   },
   {
     id: "1O0A6336",
