@@ -433,7 +433,7 @@ export const pictures: Picture[] = [
     title: "Total Eclipse of our Son",
     description: 'Water Colour 20" x 25" 1981',
     available: false,
-    owner: "Colette Walker",
+    owner: "Collette Walker",
   },
   {
     id: "1O0A6327",
