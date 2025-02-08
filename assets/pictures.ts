@@ -244,7 +244,12 @@ export const pictures: Picture[] = [
   //   description: 'Water Colour 22" x 30"',
   // },
   { id: "70", title: "The Marble Run", description: 'Water Colour 20" x 28"' },
-  { id: "71", title: "Fire Nymphs", description: 'Water Colour 22" x 22"' },
+  {
+    id: "71",
+    title: "Fire Nymphs",
+    description: 'Water Colour 22" x 22"',
+    owner: "Bethan Hunt",
+  },
   {
     id: "72",
     title: "When we were Young",
