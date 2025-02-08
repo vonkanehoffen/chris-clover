@@ -81,6 +81,11 @@ export default function Picture({ params }: { params: { slug: string } }) {
       <h4 className="mb-4 text-slate-500">
         {meta.description} - {meta.available ? "Available" : "Not available"}
       </h4>
+      {meta.owner && (
+        <h4 className="mb-4 text-slate-300">
+          Currently hanging with {meta.owner}
+        </h4>
+      )}
     </div>
   );
 }

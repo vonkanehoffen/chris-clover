@@ -289,7 +289,8 @@ export const pictures: Picture[] = [
     id: "1O0A6263",
     title: "The Colour and I",
     description: 'Oil Colour 24" x 36"',
-    available: true,
+    available: false,
+    owner: "Dave & Sarah Gilliver",
   },
   {
     id: "1O0A6294",
