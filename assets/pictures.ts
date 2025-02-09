@@ -389,7 +389,8 @@ export const pictures: Picture[] = [
     id: "1O0A6307",
     title: "In Search of the Promised Land",
     description: 'Water Colour 29"x 22" 2004',
-    available: true,
+    available: false,
+    owner: "Ben Thiele",
   },
   {
     id: "1O0A6308",
@@ -407,7 +408,8 @@ export const pictures: Picture[] = [
     id: "1O0A6314",
     title: "Talisman",
     description: "Airbrush Water Colour, 1990",
-    available: true,
+    available: false,
+    owner: "Gill & Richard Gale",
   },
   {
     id: "1O0A6315",
@@ -445,7 +447,8 @@ export const pictures: Picture[] = [
     id: "1O0A6327",
     title: "Sparrowhawk",
     description: 'Water Colour 21" x 14" 2019',
-    available: true,
+    available: false,
+    owner: "Gill & Richard Gale",
   },
   {
     id: "1O0A6328",
