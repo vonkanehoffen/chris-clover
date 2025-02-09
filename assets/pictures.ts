@@ -454,7 +454,8 @@ export const pictures: Picture[] = [
     id: "1O0A6328",
     title: "Departures Hall for the Promised Land",
     description: "",
-    available: true,
+    available: false,
+    owner: "Simon P Scarlet",
   },
   {
     id: "1O0A6330",
