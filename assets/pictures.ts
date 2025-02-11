@@ -301,7 +301,8 @@ export const pictures: Picture[] = [
     id: "1O0A6294",
     title: "Victor U",
     description: "Airbrush Water Colour, 1988",
-    available: true,
+    available: false,
+    owner: "Emily & Leo Woodfelder",
   },
   {
     id: "1O0A6329",
@@ -493,7 +494,7 @@ export const pictures: Picture[] = [
     title: "The Tree of Want",
     description: "",
     available: false,
-    owner: "Emily & Leo Woodfelder",
+    // owner: "Emily & Leo Woodfelder",
   },
   {
     id: "1O0A6338",
