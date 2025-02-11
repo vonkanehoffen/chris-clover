@@ -379,7 +379,8 @@ export const pictures: Picture[] = [
     id: "1O0A6299",
     title: "Glider",
     description: 'Water Colour 29" x 37" 2014',
-    available: true,
+    available: false,
+    owner: "Nick Auluck",
   },
   {
     id: "1O0A6306",
