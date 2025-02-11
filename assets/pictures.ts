@@ -358,7 +358,8 @@ export const pictures: Picture[] = [
     id: "1O0A6296",
     title: "Simplicity of Conscience",
     description: "1966",
-    available: true,
+    available: false,
+    owner: "Valpuri & Richard Howe",
   },
   {
     id: "1O0A6297",
@@ -396,13 +397,15 @@ export const pictures: Picture[] = [
     id: "1O0A6308",
     title: "K for Kitty",
     description: "Airbrush Water Colour, 1994",
-    available: true,
+    available: false,
+    owner: "Mark Brady",
   },
   {
     id: "1O0A6312",
     title: "Highland Dream",
     description: "1996",
-    available: true,
+    available: false,
+    owner: "Fay & Marc Constantine",
   },
   {
     id: "1O0A6314",
@@ -462,7 +465,8 @@ export const pictures: Picture[] = [
     id: "1O0A6330",
     title: "Chrizlam Subliminal Sky",
     description: "2008",
-    available: true,
+    available: false,
+    owner: "Phoebe Gale & Tom Hughes",
   },
   {
     id: "1O0A6333",
