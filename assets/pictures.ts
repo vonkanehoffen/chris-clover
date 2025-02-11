@@ -479,6 +479,7 @@ export const pictures: Picture[] = [
     title: "From Heaven to Earth",
     description: "1972",
     available: true,
+    // Emily wants if nobody else having
   },
   {
     id: "1O0A6335",
@@ -491,7 +492,8 @@ export const pictures: Picture[] = [
     id: "1O0A6336",
     title: "The Tree of Want",
     description: "",
-    available: true,
+    available: false,
+    owner: "Emily & Leo Woodfelder",
   },
   {
     id: "1O0A6338",
