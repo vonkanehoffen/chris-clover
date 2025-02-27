@@ -428,7 +428,8 @@ export const pictures: Picture[] = [
     id: "1O0A6323",
     title: "Taming the Hounds of Aries",
     description: 'Airbrush Water Colour 26" x 22" 2008',
-    available: true,
+    available: false,
+    owner: "Anisa Visram",
   },
   {
     id: "1O0A6324",
