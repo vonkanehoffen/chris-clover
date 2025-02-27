@@ -387,7 +387,8 @@ export const pictures: Picture[] = [
     id: "1O0A6306",
     title: "Primary Shapes (Alchemy)",
     description: "Airbrush Water Colour, 2000",
-    available: true,
+    available: false,
+    owner: "Bernie Steer",
   },
   {
     id: "1O0A6307",
