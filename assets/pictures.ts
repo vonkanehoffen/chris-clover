@@ -315,7 +315,8 @@ export const pictures: Picture[] = [
     id: "1O0A6261",
     title: "Look",
     description: 'Oil Colour 26" x 38", 1984',
-    available: true,
+    available: false,
+    owner: "Lucy Hingley",
   },
   {
     id: "1O0A6264",
@@ -507,6 +508,7 @@ export const pictures: Picture[] = [
     id: "1O0A6339",
     title: "Untitled 3",
     description: '21" x 30" 1985',
-    available: true,
+    available: false,
+    owner: "Rich Bayliss",
   },
 ];
