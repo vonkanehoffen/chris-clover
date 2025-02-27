@@ -503,7 +503,8 @@ export const pictures: Picture[] = [
     id: "1O0A6338",
     title: "Nursery School",
     description: '21" x 30" 1985',
-    available: true,
+    available: false,
+    owner: "Kim & Joe Hook",
   },
   {
     id: "1O0A6339",
