@@ -288,7 +288,8 @@ export const pictures: Picture[] = [
     id: "1O0A6283",
     title: "The Order of Chaos",
     description: "Airbrush Water Colour, 1985",
-    available: true,
+    available: false,
+    owner: "Suzie Davies",
   },
   {
     id: "1O0A6263",
@@ -335,7 +336,8 @@ export const pictures: Picture[] = [
     id: "1O0A6332",
     title: "Platinum - Blood Sweat and Tears",
     description: "1989",
-    available: true,
+    available: false,
+    owner: "Jo Portus",
   },
   {
     id: "1O0A6287",
