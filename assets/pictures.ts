@@ -376,7 +376,8 @@ export const pictures: Picture[] = [
     id: "1O0A6298",
     title: "Love Machine",
     description: "2016",
-    available: true,
+    available: false,
+    owner: "Prez & Jools Wilson-Thomas",
   },
   {
     id: "1O0A6299",
@@ -479,14 +480,15 @@ export const pictures: Picture[] = [
     id: "1O0A6333",
     title: "Dali's Duck (Red Snail in the Sunset)",
     description: "2016",
-    available: true,
+    available: false,
+    owner: "Prez & Jools Wilson-Thomas",
   },
   {
     id: "1O0A6334",
     title: "From Heaven to Earth",
     description: "1972",
-    available: true,
-    // Emily wants if nobody else having
+    available: false,
+    owner: "Hazel & Carlos Mendieta",
   },
   {
     id: "1O0A6335",
