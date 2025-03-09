@@ -343,7 +343,8 @@ export const pictures: Picture[] = [
     id: "1O0A6287",
     title: "Untitled 1",
     description: "Airbrush Water Colour, 1985",
-    available: true,
+    available: false,
+    owner: "Kim & Joe Hook",
   },
   {
     id: "1O0A6295",
