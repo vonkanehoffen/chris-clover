@@ -248,7 +248,7 @@ export const pictures: Picture[] = [
     id: "71",
     title: "Fire Nymphs",
     description: 'Water Colour 22" x 22"',
-    owner: "Bethan Hunt",
+    owner: "Bethan Hunt", // delivered
   },
   {
     id: "72",
@@ -296,21 +296,21 @@ export const pictures: Picture[] = [
     title: "The Colour and I",
     description: 'Oil Colour 24" x 36"',
     available: false,
-    owner: "Dave & Sarah Gilliver",
+    owner: "Dave & Sarah Gilliver", // delivered
   },
   {
     id: "1O0A6294",
     title: "Victor U",
     description: "Airbrush Water Colour, 1988",
     available: false,
-    owner: "Emily & Leo Woodfelder",
+    owner: "Emily & Leo Woodfelder", // delivered
   },
   {
     id: "1O0A6329",
     title: "Untitled 2",
     description: "Ink on Paper",
     available: false,
-    owner: "Andrew Dowling",
+    owner: "Andrew Dowling", // delivered
   },
   {
     id: "1O0A6261",
@@ -324,7 +324,7 @@ export const pictures: Picture[] = [
     title: "Firebird",
     description: 'Oil Colour, 31" x 42" 1995',
     available: false,
-    owner: "Vicky & Theo Scholes",
+    owner: "Vicky & Theo Scholes", // delivered
   },
   {
     id: "1O0A6309",
@@ -337,11 +337,11 @@ export const pictures: Picture[] = [
     title: "Platinum - Blood Sweat and Tears",
     description: "1989",
     available: false,
-    owner: "Jo Portus",
+    owner: "Jo Portus", // delivered
   },
   {
     id: "1O0A6287",
-    title: "Untitled 1",
+    title: "Untitled 1", // dinosaurs
     description: "Airbrush Water Colour, 1985",
     available: false,
     owner: "Kim & Joe Hook",
@@ -371,14 +371,14 @@ export const pictures: Picture[] = [
     title: "The Dragon Family",
     description: "2015",
     available: false,
-    owner: "Nick & Helen Rowles",
+    owner: "Nick & Helen Rowles", // delivered
   },
   {
     id: "1O0A6298",
     title: "Love Machine",
     description: "2016",
     available: false,
-    owner: "Prez & Jools Wilson-Thomas",
+    owner: "Prez & Jools Wilson-Thomas", // delivered
   },
   {
     id: "1O0A6299",
@@ -392,7 +392,7 @@ export const pictures: Picture[] = [
     title: "Primary Shapes (Alchemy)",
     description: "Airbrush Water Colour, 2000",
     available: false,
-    owner: "Bernie Steer",
+    owner: "Bernie Steer", // delivered
   },
   {
     id: "1O0A6307",
@@ -434,14 +434,14 @@ export const pictures: Picture[] = [
     title: "Taming the Hounds of Aries",
     description: 'Airbrush Water Colour 26" x 22" 2008',
     available: false,
-    owner: "Anisa Visram",
+    owner: "Anisa Visram", // delivered
   },
   {
     id: "1O0A6324",
     title: "A Thing O'Beauty",
     description: "2016",
     available: false,
-    owner: "Rachel Bywater & Kathy Sawkins",
+    owner: "Rachel Bywater & Kathy Sawkins", // delivered
   },
   {
     id: "1O0A6325",
@@ -454,7 +454,7 @@ export const pictures: Picture[] = [
     title: "Total Eclipse of our Son",
     description: 'Water Colour 20" x 25" 1981',
     available: false,
-    owner: "Collette Walker",
+    owner: "Collette Walker", // delivered
   },
   {
     id: "1O0A6327",
@@ -468,7 +468,7 @@ export const pictures: Picture[] = [
     title: "Departures Hall for the Promised Land",
     description: "",
     available: false,
-    owner: "Simon P Scarlet",
+    owner: "Simon P Scarlet", // delivered
   },
   {
     id: "1O0A6330",
@@ -482,14 +482,14 @@ export const pictures: Picture[] = [
     title: "Dali's Duck (Red Snail in the Sunset)",
     description: "2016",
     available: false,
-    owner: "Prez & Jools Wilson-Thomas",
+    owner: "Prez & Jools Wilson-Thomas", // delivered
   },
   {
     id: "1O0A6334",
     title: "From Heaven to Earth",
     description: "1972",
     available: false,
-    owner: "Hazel & Carlos Mendieta",
+    owner: "Hazel & Carlos Mendieta", // delivered (Emily for now)
   },
   {
     id: "1O0A6335",
@@ -510,7 +510,7 @@ export const pictures: Picture[] = [
     title: "Nursery School",
     description: '21" x 30" 1985',
     available: false,
-    owner: "Kim & Joe Hook",
+    owner: "Kim & Joe Hook", // delivered
   },
   {
     id: "1O0A6339",
