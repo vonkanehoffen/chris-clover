@@ -289,7 +289,7 @@ export const pictures: Picture[] = [
     title: "The Order of Chaos",
     description: "Airbrush Water Colour, 1985",
     available: false,
-    owner: "Suzie Davies",
+    owner: "Suzie Davies", // delivered
   },
   {
     id: "1O0A6263",
@@ -385,7 +385,7 @@ export const pictures: Picture[] = [
     title: "Glider",
     description: 'Water Colour 29" x 37" 2014',
     available: false,
-    owner: "Nick Auluck",
+    owner: "Nick Auluck", // delivered
   },
   {
     id: "1O0A6306",
@@ -399,35 +399,35 @@ export const pictures: Picture[] = [
     title: "In Search of the Promised Land",
     description: 'Water Colour 29"x 22" 2004',
     available: false,
-    owner: "Ben Thiele",
+    owner: "Ben Thiele", // delivered
   },
   {
     id: "1O0A6308",
     title: "K for Kitty",
     description: "Airbrush Water Colour, 1994",
     available: false,
-    owner: "Mark Brady",
+    owner: "Mark Brady", // delivered
   },
   {
     id: "1O0A6312",
     title: "Highland Dream",
     description: "1996",
     available: false,
-    owner: "Fay & Marc Constantine",
+    owner: "Fay & Marc Constantine", // delivered
   },
   {
     id: "1O0A6314",
     title: "Talisman",
     description: "Airbrush Water Colour, 1990",
     available: false,
-    owner: "Gill & Richard Gale",
+    owner: "Gill & Richard Gale", // delivered
   },
   {
     id: "1O0A6315",
     title: "Temple of Love Revisited",
     description: 'Water Colour 22" x 30" 2020',
     available: false,
-    owner: "Cat O'Neil",
+    owner: "Cat O'Neil", // delivered
   },
   {
     id: "1O0A6323",
@@ -461,7 +461,7 @@ export const pictures: Picture[] = [
     title: "Sparrowhawk",
     description: 'Water Colour 21" x 14" 2019',
     available: false,
-    owner: "Gill & Richard Gale",
+    owner: "Gill & Richard Gale", // delivered
   },
   {
     id: "1O0A6328",
@@ -475,7 +475,7 @@ export const pictures: Picture[] = [
     title: "Chrizlam Subliminal Sky",
     description: "2008",
     available: false,
-    owner: "Phoebe Gale & Tom Hughes",
+    owner: "Phoebe Gale & Tom Hughes", // delivered
   },
   {
     id: "1O0A6333",
@@ -502,7 +502,7 @@ export const pictures: Picture[] = [
     id: "1O0A6336",
     title: "The Tree of Want",
     description: "",
-    available: false,
+    available: true,
     // owner: "Emily & Leo Woodfelder",
   },
   {
